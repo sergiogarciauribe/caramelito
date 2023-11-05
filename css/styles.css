@@ -100,19 +100,10 @@ h1,h2,h3 {
 .nav-bg{
     background-color: var(--secundario);
 }
-/*scroll
-.servicios,.mi,
-.navegacion-principal,
-.formulario,
-.footer{
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-}*/
 
 .navegacion-principal { 
     display: flex;
-    flex-direction: column;
-    
+    flex-direction:column;
     
 }
 @media (min-width: 768px) {
